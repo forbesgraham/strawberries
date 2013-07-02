@@ -15,6 +15,7 @@ todos.create({title: 'Boston Riots'});
 todos.fetch();
 
 var todo1 = todos.get(0);
+console.log(JSON.stringify(todo1);
 console.log(todo1.get('title'));
 
 //var todo2 = todos.get(2);
