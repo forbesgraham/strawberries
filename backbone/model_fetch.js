@@ -13,6 +13,7 @@ var TodosCollection = Backbone.Collection.extend({
 var todos = new TodosCollection();
 todos.fetch();
 
-var todo2 = todos.get(2);
+//var todo2 = todos.get(2);
+todo2 = new Todo();
 todo2.set('title', 'Play basketball');
 todo2.save();
